@@ -6,7 +6,7 @@ class zuluoOptions {
 		if (!is_array($options)) {
 
 			$options['logo'] = get_template_directory_uri() . '/images/logo.png';
-			$options['logo_title'] = '初中部';
+			$options['logo_title'] = '崇德尚志 博学笃行';
 
 			$options['slider_img1'] = get_template_directory_uri() . '/images/slider/1.jpg';
 			$options['slider_title1'] = '图片说明';
