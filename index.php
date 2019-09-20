@@ -14,7 +14,7 @@
 				for($i=1;$i<11;$i++) {
 					if($options['slider_img'.$i]<>'') {
 				?>
-				<div class="swiper-slide" style="background-image:url(<?php echo $options['slider_img'.$i]; ?>); background-repeat:no-repeat;background-position:center; background-size:cover;">
+				<div class="swiper-slide" style="background-image:url(<?php echo $options['slider_img'.$i]; ?>); background-repeat:no-repeat;background-position:center; background-size:auto 100%;">
 					<div class="wenzi">
 						<div class="wenzi1 ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s">
 							<div class="wenzi1-1"><?php if($options['slider_link'.$i]) echo'<a href="'.$options['slider_link'.$i].'">'; ?><?php echo $options['slider_titleb'.$i]; ?><?php if($options['slider_link'.$i]) echo'</a>'; ?></div>
