@@ -320,7 +320,6 @@ label {
 }
 
 </style>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/includes/js/jquery-1.7.2.min.js"></script>
 <script language="JavaScript">
 //点击标题隐藏下方表格
 function hide(num) {
