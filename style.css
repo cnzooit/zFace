@@ -78,7 +78,7 @@ a:hover {
 	margin: 0 auto 0 auto;
 	padding: 10px 0;
 	width: 100%;
-	background: #333;
+	background: #646464;
 }
 #header {
 	display:block;
@@ -160,6 +160,9 @@ a:hover {
 	width: 1200px;	
 	color: #aaa;
 	text-align: center;
+}
+#foot_copy a {
+	color: #aaa;	
 }
 
 /* 轮播代码开始 */
